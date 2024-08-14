@@ -7,6 +7,6 @@ if (window.innerWidth < window.innerHeight) {
 else if (window.innerWidth > window.innerHeight) {
   document.getElementById("checkSize").style.width = "275px";
   document.getElementById("checkSize").style.height = "275px";
-  document.getElementById("checkSize").style.marginLeft = "50px";
+  document.getElementById("checkSize").style.marginLeft = "120px";
   document.getElementById("small").style.width = "65%";
 }
