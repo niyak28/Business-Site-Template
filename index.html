@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <title>Home</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -14,36 +14,40 @@
   <div class="header">
     <a href="#default" class="logo">Business Name</a>
     <div class="header-right">
-      <a class="active" href="#home">Home</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">How to Order</a>
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact</a>
+      <a href="how-to-order.html">How to Order</a>
     </div>
   </div> <!-- Close site header -->
 
-  <!-- Add home page -->
-  <div id="showHome">
+  <!-- Add div to 1st home page cluster to add background colour-->
+  <div style="background-color: #A0A0A0; padding: 30px">
+    <!-- Add title -->
+    <h3>About the business</h3>
 
-    <!-- Add div to 1st home page cluster to add background colour-->
-    <div style="background-color: #A0A0A0; padding: 30px">
-      <!-- Add title -->
-      <h3>About the business</h3>
-  
-      <!-- Add flexbox for columns -->
-      <div style="display: flex">
-        <!-- Add description -->
-        <p class="small" id="small" style="font-size: 100%; width: 45%;">Lorem ipsum dolor sit amet. Qui molestiae deleniti non omnis velit aut Quis odio At quia sequi ea quod odit qui enim quasi et natus necessitatibus. Et atque doloremque et placeat voluptas est sint sunt. Aut natus deserunt non architecto doloribus qui officiis porro est blanditiis maxime ut dolores officia ex corrupti voluptas et quod omnis. Qui galisum ipsa ea laborum tempore ea dolor debitis vel fuga incidunt sed ducimus nemo ut nostrum sunt! Lorem ipsum dolor sit amet. Qui molestiae deleniti non omnis velit aut Quis odio At quia sequi ea quod odit qui enim quasi et natus necessitatibus. Et atque doloremque et placeat voluptas est sint sunt. Aut natus deserunt non architecto doloribus qui officiis porro est blanditiis maxime ut dolores officia ex corrupti voluptas et quod omnis. Qui galisum ipsa ea laborum tempore ea dolor debitis vel fuga incidunt sed ducimus nemo ut nostrum sunt! Lorem ipsum dolor sit amet. Qui molestiae deleniti non omnis velit aut Quis odio At quia sequi ea quod odit qui enim quasi et natus necessitatibus. Et atque doloremque et placeat voluptas est sint sunt. Aut natus deserunt non architecto doloribus qui officiis porro est blanditiis maxime ut dolores officia ex corrupti voluptas et quod omnis. Qui galisum ipsa ea laborum tempore ea dolor debitis vel fuga incidunt sed ducimus nemo ut nostrum sunt! </p>
-        <img id="checkSize" src="./blank.webp" style="margin-left: 500px">
-      <!-- Close flexbox for columns -->
+    <!-- Add flexbox for columns -->
+    <div style="display: flex">
+      <!-- Add description -->
+      <p class="small" id="small" style="font-size: 100%; width: 45%;">Lorem ipsum dolor sit amet. Qui molestiae deleniti non omnis velit aut Quis odio At quia sequi ea quod odit qui enim quasi et natus necessitatibus. Et atque doloremque et placeat voluptas est sint sunt. Aut natus deserunt non architecto doloribus qui officiis porro est blanditiis maxime ut dolores officia ex corrupti voluptas et quod omnis. Qui galisum ipsa ea laborum tempore ea dolor debitis vel fuga incidunt sed ducimus nemo ut nostrum sunt! Lorem ipsum dolor sit amet. Qui molestiae deleniti non omnis velit aut Quis odio At quia sequi ea quod odit qui enim quasi et natus necessitatibus. Et atque doloremque et placeat voluptas est sint sunt. Aut natus deserunt non architecto doloribus qui officiis porro est blanditiis maxime ut dolores officia ex corrupti voluptas et quod omnis. Qui galisum ipsa ea laborum tempore ea dolor debitis vel fuga incidunt sed ducimus nemo ut nostrum sunt! Lorem ipsum dolor sit amet. Qui molestiae deleniti non omnis velit aut Quis odio At quia sequi ea quod odit qui enim quasi et natus necessitatibus. Et atque doloremque et placeat voluptas est sint sunt. Aut natus deserunt non architecto doloribus qui officiis porro est blanditiis maxime ut dolores officia ex corrupti voluptas et quod omnis. Qui galisum ipsa ea laborum tempore ea dolor debitis vel fuga incidunt sed ducimus nemo ut nostrum sunt! Quasi et natus necessitatibus. Et atque doloremque et placeat voluptas est sint sunt. Aut natus deserunt non architecto doloribus qui officiis porro est blanditiis maxime ut dolores officia ex corrupti voluptas et quod omnis. Qui galisum ipsa ea laborum tempore ea dolor debitis vel fuga incidunt sed ducimus nemo ut nostrum sunt! Lorem ipsum dolor sit amet. Qui molestiae deleniti non omnis velit aut Quis odio At quia sequi ea quod odit qui enim quasi et natus necessitatibus. Et atque doloremque et placeat voluptas est sint sunt. Aut natus deserunt non architecto doloribus qui officiis porro est blanditiis maxime ut dolores officia ex corrupti voluptas et quod omnis. Qui galisum ipsa ea laborum tempore ea dolor debitis vel fuga incidunt sed ducimus nemo ut nostrum sunt! </p>
+      <div>
+        <center>
+          <img style="margin-left: 50%" id="checkSize" src="./blank.webp">
+          <p style="margin-left: 30%"><b>Owner Name</b><br> Information</p>
+        </center>
+
       </div>
-    <!-- Close first home page cluster div-->
+    <!-- Close flexbox for columns -->
     </div>
-
-    
-
-    
-
+  <!-- Close first home page cluster div-->
   </div>
-  <!-- Close home page -->
+
+  <!-- Add footer -->
+    <footer id="footer" style="display:flex; padding: 16px">
+      <p id="footerText">Author: Name Name</p>
+      <p id="footerText" style="margin-left: 8%"><a href="mailto:hege@example.com">hege@example.com</a></p>
+      <p id="footerText" style="margin-left: 8%">Phone: 93u398391</p>       
+  </footer>
+ 
   
   <!-- Link to jscript file -->
   <script src="script.js"></script>
